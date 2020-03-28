@@ -13,3 +13,6 @@ In the end, the result of this project was summarized in form of a software syst
 does provide the basic needs for such a work-planning tool, but not sufficient to make it
 valuable enough in the current state. The needed improvements for the software to become what
 it was intended to are suggested as well as discussions for the current shortcomings.
+
+The project was made during the first semester at the VIA university college during an Software engineering Bachelor.
+It was made by a group with 4 members.

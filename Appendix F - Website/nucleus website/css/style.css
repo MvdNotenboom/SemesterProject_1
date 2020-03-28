@@ -1,0 +1,198 @@
+body {
+    font-family:"Varela Round", "Varela";
+}
+
+/* navigation bar */
+
+#logo_navbar {
+    width: 200px; 
+    height: auto; 
+}
+
+.nav-bg-custom {
+    background-color: white !important;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.nav-custom {
+    font-size: 18px; 
+    color: #1318c8 !important;
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+}
+
+.nav-custom:hover {
+    color: black !important;
+}
+
+#quickstart {
+    background-color: #1318c8;
+    color: white !important;
+    border: 1px solid #1318c8;
+    border-radius: 50px;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+#call_to_action {
+    background: black;
+}
+
+#call_to_action_link:hover {
+    background-color: #090c79 !important;
+}
+
+#call_to_action_link {
+    background-color: white;
+    color: black !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#call_to_action_link:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+#call_to_action_text {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+#ourTeam {
+    padding: 20px 0px;
+    background: #1318c8;
+}
+
+#ourTeamHeading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#aboutUs {
+    margin: 20px 0px;
+}
+
+#technologies {
+    margin: 20px 0px;
+}
+
+#ourTechnologiesHeading {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#aboutUs {
+    margin: 20px 0px;
+}
+
+#aboutUsHeading {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#testimonials {
+    margin: 20px 0px;
+}
+
+#ourTestimonialsHeading {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#contactUs {
+    margin: 20px 0px;
+}
+
+#contactUsHeading {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#teamMembers {
+    max-height: 100px;
+}
+
+.fullImage {
+    max-width: 100%;
+}
+
+.contactImage{
+    max-height: 98px !important;
+}
+
+.mapouter {
+    margin-top: 20px;
+    text-align: right;
+    height: 300px;
+    width: 100%;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height:300px;
+    width:100%;
+}
+
+.elements_shifted {
+    background: white;
+    margin: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 5px;
+    border-bottom: 2px solid #aeaeae;
+}
+
+footer {
+    min-height: 150px;
+    padding: 20px;
+    color: white;
+    background: -moz-linear-gradient(45deg, rgba(19,24,200,1) 0%, rgba(22,138,226,1) 55%, rgba(19,24,200,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(19,24,200,1) 0%,rgba(22,138,226,1) 55%,rgba(19,24,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(19,24,200,1) 0%,rgba(22,138,226,1) 55%,rgba(19,24,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#footer_content {
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+/* Bootstrap Overide */
+
+.carousel-caption {
+    background: #ffffffc2;
+    color: #000000;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.card {
+    border-radius: 0px;
+    text-align: center;
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+    .col-sm-6 {
+        width: 100%;
+        display: block;
+    }
+
+    #writeAnEmail {
+        margin-top: 20px;
+    }
+}

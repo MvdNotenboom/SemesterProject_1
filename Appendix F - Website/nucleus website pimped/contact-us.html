@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nucleus - Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="resources/logo/Nucleus_logo_bg_dark_no_text.png" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <!-- stylesheets -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-xl navbar-light fixed-top nav-bg-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img id="logo_navbar" src="resources/logo/Nucleus_logo_bg_light.png" alt="Logo" title="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-custom" id="quickstart" href="index.html">Quick Start</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-custom" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-custom" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-custom" href="technologies.html">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-custom" href="testimonials.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-custom" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-custom" href="contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- section contactUs -->
+        <section id="contactUs">
+            <h1 id="contactUsHeading" class="text-center">Contact Us</h1>
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <h3><i class="fa fa-map-marker"></i> Horsens, Denmark, Chr M Østergaards Vej 4, 8700</h3>
+                    <h3><i class="fa fa-phone"></i> Phone: +45 5222 5421</h3>
+                    <h3><i class="fa fa-envelope"></i> Email: <a href="mailto:info@nucleus.com">info@nucleus.com</a></h3>
+
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img class="contactImage" src="resources/img/Deivydas.jpg" alt="Pesrson">
+                                <h5 class="pt-1">Deivydas</h5>
+                                <p class="card-text">Programmer and Software Engineer</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img class="contactImage" src="resources/img/Gais.jpg" alt="Pesrson">
+                                <h5 class="pt-1">Gais</h5>
+                                <p class="card-text">Project Coordinator and Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img class="contactImage" src="resources/img/Lukas.jpg" alt="Pesrson">
+                                <h5 class="pt-1">Lukas</h5>
+                                <p class="card-text">Team Builder and Software Engineer</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img class="contactImage" src="resources/img/Marcel.jpg" alt="Pesrson">
+                                <h5 class="pt-1">Marcel</h5>
+                                <p class="card-text">Quality Assurance and Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <legend id="writeAnEmail">Write us a letter</legend>
+                    <form action="http://www.no-where.com/formhandler.php?request=" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="topic">Topic:</label>
+                            <input type="text" class="form-control" id="topic" name="topic">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+            <!-- map -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=VIA%20University%20College%20horsens&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://www.crocothemes.net"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid">
+        <footer>
+            <div id="footer_content">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>About Us</h3>
+                        <p>Nucleus - a passionate team of Software Engineers, making sure all the bits are properly processed and safely stored in the cloud.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Technologies</h3>
+                        <p>We provide web development services, using HTML5, CSS3 and JavaScript (jQuery framework) - our team will make sure to deliver a responsive website.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Contact Us</h3>
+                        <p>Phone: +45 5222 5421, Fax: +45 6106 1015, Chr M Østergaards Vej 4, 8700 Horsens, Denmark</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
